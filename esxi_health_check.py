@@ -5,7 +5,6 @@ import pywbem
 import datetime
 import boto.ses
 import sys
-import json
 from slacker import Slacker
 
 sns_conn = boto.ses.connect_to_region('<AWS_REGION>')
